@@ -1,4 +1,2 @@
 # Dasar-JavaScript-Practice
-Repository Latihan JavaScript
-
-Repository Pelatihan JavaScript Progate 2022
+Repository ini adalah dokumentasi pembelajaran mengenai JavaScript, di dalamnya menggunakan Java Script Basic dan Java Script ES6. 
