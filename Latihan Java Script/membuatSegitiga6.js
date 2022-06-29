@@ -21,7 +21,7 @@ for(var l = 1 ; l <= baris; l++){
 }
 console.log(pola);
 
-// output yang harusnya  dari code diatas =  
+// output dari code diatas  
 
 //     *
 //    **

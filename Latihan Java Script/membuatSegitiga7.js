@@ -10,3 +10,10 @@ for(var i = 1; i <= baris; i++ ){
     s += '\n'
 }
 console.log(s);
+
+// output pada code di atas 
+// *****
+//  ****
+//   ***
+//    **
+//     *
