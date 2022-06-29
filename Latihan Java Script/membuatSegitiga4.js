@@ -17,8 +17,8 @@ console.log(pola); // mencetak pola kedalam konsol agar bisa menampilkan output 
 
 // output dari code diatas 
 
-//     *
-//    ***
-//   *****
-//  *******
-// *********
+//        *
+//       ***
+//      *****
+//     *******
+//    *********
