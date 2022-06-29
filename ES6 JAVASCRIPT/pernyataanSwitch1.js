@@ -1,4 +1,4 @@
-const rank = 2;
+const rank = 2; // deklarasi variable rank, dan ini juga akan menentukan apa yang terjadi di dalam ekspresi switch
 
 switch (rank) {
   case 1:
