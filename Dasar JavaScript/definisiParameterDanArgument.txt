@@ -1,0 +1,12 @@
+Parameter adalah variabel yang ditulis di dalam kurung pada saat function dibuat, digunakan untuk menampung nilai yang dikirimkan saat function dipanggil.
+
+contoh : function Declaration(a,b) - > (a,b) inilah yang merupakan sebuah parameter yang nantinya bisa di isi oleh argumen 
+
+sedangkan argumen adalah nilai yang dikirimkan ke parameter saat fungsi di panggil 
+
+contoh:
+function Declaration(a,b){
+    total = a + b;
+}
+console.log(Declaration(1,2)); -> (1,2) inilah yang dimaksud dengan argumen mengisi nilai pada suatu parameter yang ada pada function Declaration, 1 dimasukkan ke parameter a, dan 2 dimasukkan ke parameter b.
+jadi hasil dari total adalah 1 + 2 yang akan menghasilkan nilai 3;
