@@ -14,7 +14,7 @@ for(var l = 1 ; l <= baris; l++){
     for(var m = 1; m <= l; m++){
         pola += ' '
     }
-    for(var n = 4; n >= l; n--){
+    for(var n = baris - 1; n >= l; n--){
         pola += '*'
     }
     pola += '\n'
