@@ -11,13 +11,13 @@ while (i <= j) {
 
 //output dari code diatas jika di running 
 
-// mencetak string sebanyak 1kali
-// mencetak string sebanyak 2kali
-// mencetak string sebanyak 3kali
-// mencetak string sebanyak 4kali
-// mencetak string sebanyak 5kali
-// mencetak string sebanyak 6kali
-// mencetak string sebanyak 7kali
-// mencetak string sebanyak 8kali
-// mencetak string sebanyak 9kali
-// mencetak string sebanyak 10kali
+// Angkot No. 1 beroperasi dengan baik
+// Angkot No. 2 beroperasi dengan baik
+// Angkot No. 3 beroperasi dengan baik
+// Angkot No. 4 beroperasi dengan baik
+// Angkot No. 5 beroperasi dengan baik
+// Angkot No. 6 beroperasi dengan baik
+// Angkot No. 7 beroperasi dengan baik
+// Angkot No. 8 beroperasi dengan baik
+// Angkot No. 9 beroperasi dengan baik
+// Angkot No. 10 beroperasi dengan baik
