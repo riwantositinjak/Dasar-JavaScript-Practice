@@ -1,7 +1,7 @@
 // slice digunakan untuk mengiris sebuah array menjadi array yang baru 
 // slice itu menghasilkan array baru, jadi alangkah lebih baiknya buat kembali variable baru untuk memanggil array sebelumnya
 // rumus dari slice adalah:
-// slice(indeksAwal, indeksAkhir, )
+// slice(indeksAwal, indeksAkhir)
 
 
 var nama = ['Riwanto','John', 'Peter', 'Michael', 'Phillips'];
