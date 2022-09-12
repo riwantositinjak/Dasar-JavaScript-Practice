@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prototype</title>
+  </head>
+  <body>
+    <script>
+      // Prototype
+
+      // - JavaScript sebelumnya dikenal dengan pemrograman berbasis prototype
+      // - Memang agak sedikit membingungkan, dan tidak dipungkiri, banyak sekali yang bingung dengan
+      //   konsep prototype di JavaScript
+      // - Pada chapter ini, kita akan bahas tentang konsep prototype
+
+      // Prototype Inheritance
+
+      // - Saat kita membuat object dari constructor function, object tersebut disebut instance, sebelumnya
+      //   property(baik itu value atau method), akan berada di dalam instance objectnya
+      // - Setiap kita membuat sebuahh constructor function, maka secara otomatis akan dibuatkan
+      //   prototypenya, misal ketika kita membuat constructor function Person, maka akan ada
+      //   Person.prototypenya
+      // - Saat kita membuat sebuah object instance, secara otomatis object tersebut adalah turunan
+      //   dari Constructor.prototypenya
+      // - Untuk mengakses prototype milik sebuah instance, kita bisa menggunakan __proto__
+
+      // Code
+      //// Ini adalah classnya, menggunakan constructor function
+      function Person(firstName, lastName) {
+        // menambahkan parameter
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.sayHello = function (name) {
+          console.log(`Hello ${name}, my name is ${this.firstName}`);
+        };
+      }
+
+      // ini adalah object yang terdapat dalam class person
+      const riwanto = new Person("Riwanto", "Sitinjak"); // input argumen untuk di passing ke parameternya
+      const lestaria = new Person("Lestaria", "Sitinjak"); // input argumen untuk di passing ke parameternya
+
+      console.log(riwanto);
+      console.log(lestaria);
+    </script>
+  </body>
+</html>

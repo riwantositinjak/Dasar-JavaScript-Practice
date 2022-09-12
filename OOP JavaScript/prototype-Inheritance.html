@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prototype Inheritance</title>
+  </head>
+  <body>
+    <script>
+      // Prototype Inheritance
+
+      // - Sekarang kita sudah tahu, bahwa prototype selalu memiliki parent, artinya dia adalah turunana
+      //   parent tertinggi adalah object prototype
+      // - Pertanyaannya bagaimana jika kita ingin melakukan inheritance ke Prototype lain?
+      // -Hal ini juga bisa dilakukan, namun agak sedikit tricky, karena hal ini sebenarnya untuk JavaScript
+      //  modern, tidak direkomendasikan lagi praktek OOP menggunakan Prototype, karena di ES6 sudah
+      //  dikenalkan kata kunci class yang akan nanti di bahas di chapter tersendiri
+
+      function Manager(name) {
+        this.name = name;
+      }
+
+      function Employee(name) {
+        this.name = name;
+      }
+
+      Manager.prototype = Object.create(Employee.prototype);
+
+      Manager.prototype.sayHello = function (name) {
+        console.log(`Hello ${name}, my name is Manager ${this.name}`);
+      };
+
+      Employee.prototype.sayHello = function (name) {
+        console.log(`Hello ${name}, my name is Employee ${this.name}`);
+      };
+
+      const employee = new Employee("Riwanto");
+      employee.sayHello("Lestaria");
+
+      const manager = new Manager("Lestaria");
+      manager.sayHello("Riwanto");
+
+      console.log(employee);
+      console.log(manager);
+    </script>
+  </body>
+</html>
