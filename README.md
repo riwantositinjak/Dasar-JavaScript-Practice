@@ -6,4 +6,4 @@ In this course, you'll learn fundamental programming concepts in JavaScript. You
 
 (JavaScript adalah bahasa skrip yang dapat Anda gunakan untuk membuat halaman web menjadi interaktif. Ini adalah salah satu teknologi inti web, bersama dengan HTML dan CSS, dan didukung oleh semua browser modern.
 
-Dalam kursus ini, Anda akan mempelajari konsep dasar pemrograman dalam JavaScript. Anda akan mulai dengan struktur data dasar seperti angka dan string. Kemudian Anda akan belajar bekerja dengan array, objek, fungsi, loop, pernyataan if/else, dan banyak lagi)
+Dalam kursus ini, Anda akan mempelajari konsep dasar pemrograman dalam JavaScript. Anda akan mulai dengan struktur data dasar seperti angka dan string. Kemudian Anda akan belajar bekerja dengan array, objek, fungsi, loop, pernyataan if/else, dan banyak lagi).
